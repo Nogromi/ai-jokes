@@ -40,7 +40,7 @@ export default function Chat() {
       <div className="p4 m-4">
         <div className="flex flex-col items-center justify-center space-y-8 text-white">
           <div className="space-y-2">
-            <h2 className="text-3xl font-bold">Story Telling App</h2>
+            <h2 className="text-3xl font-bold">Joke Telling App</h2>
             <p className="text-zinc-500 dark:text-zinc-400">
               Choose the genre and tone for your joke.
             </p>

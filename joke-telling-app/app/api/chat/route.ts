@@ -2,8 +2,9 @@ import OpenAI from 'openai';
 import { OpenAIStream, StreamingTextResponse } from 'ai';
 
 const openai = new OpenAI({
-  baseURL: "http://127.0.0.1:5000/v1",
-//   baseURL: "https://investigation-travis-points-cg.trycloudflare.com",
+//   baseURL: "http://127.0.0.1:5000/v1",
+  apiKey: process.env.OPENAI_API_KEY,
+
 });
 
 export const runtime = 'edge';
